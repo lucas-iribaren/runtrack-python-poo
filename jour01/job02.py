@@ -4,7 +4,8 @@ class Operation:
         self.nombre2 = nombre2
 
 # Instanciation de la classe
-operation_instance = Operation(0,0)
+operation_instance = Operation(12,3)
 
 # Impression de l'objet en console
-print(operation_instance)
+print("Le nombre1 est",operation_instance.nombre1)
+print("Le nombre2 est",operation_instance.nombre2)
