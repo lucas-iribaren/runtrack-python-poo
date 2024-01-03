@@ -22,3 +22,4 @@ class Livre:
     def set_nb_pages(self, nb_pages):
         self.__nb_pages = nb_pages
 
+    
