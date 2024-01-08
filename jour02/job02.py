@@ -21,5 +21,14 @@ class Livre:
 
     def set_nb_pages(self, nb_pages):
         self.__nb_pages = nb_pages
-
+        if isinstance(nb_pages, int) and nb_pages > 0:
+            print("Changement du nombre de page :", nb_pages)
+        else:
+            print("Erreur, veuillez mettre un nombre positif ou un nombre entier")
     
+
+mon_livre= Livre("Pokémon","Céline",205)
+
+mon_livre.set_nb_pages(1.5)
+mon_livre.set_nb_pages(-1)
+mon_livre.set_nb_pages(100)
